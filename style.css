@@ -4,77 +4,125 @@
     box-sizing: border-box;
     font-family: century;
 }
-header{
-    background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6) ) , url( image/bmw-m4-3169357_960_720.jpg);
-    height: 100vh;
-    background-size: cover;
+ul {
+    list-style-type: none; /* ynahi nikat mtaa liste*/
+    overflow: hidden; /*ynahi l bande*/ 
+    margin: 1cm;
 }
-.logo a{
-color:black;
-padding: 0px 20px ;
-border: 1px solid #fff;
-position: absolute;
-top:10px ; 
-left:10px;
-text-transform: uppercase;
-text-decoration: none ;
-font-weight: 900;
-text-shadow: rgba(0, 0, 0, 0.7)
-}
-.logo spam{
-    color: yellow;
-    font-weight: bold;
-    font-size: 2rem;
-}
-ul{
-    list-style: none;
+li {
     float: right;
-    display: flex;
-    margin-top: 20px;
+    /* position*/
+  }
+
+li a {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  display: block; /* twali l bande ghlitha*/
+  padding: 15px 30px; /* bo3d mabinet'hom w koberhom*/
+  text-decoration: none; /* ynahi l alignement*/
+  color: #fff;
+  text-align: center;
+ /* background-color: #dddddd;*/
+/* border: 1px solid transparent; /*kober transparent narach
+ margin: 1px; kober */
 }
-ul li a{
-    text-decoration: none;
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+
+    background-color: rgba(170, 159, 159, 0.484);
+  }
+li a:hover:not(.active) {
+  background-color: rgba(170, 159, 159, 0.302);
+  /*background: #fff;
+    color: black;*/
+}
+.active {
+  background-color: rgb(48, 46, 46, 0.696);
+}
+.titre {
     color: #fff;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border: 1px solid transparent;
-    margin: 10px;
-    font-weight: 500;
-    transition: 0.6s ease;
+    font-size: 9px;
 }
-ul li a:hover{
-    background: #fff;
-    color: black;
+body{
+    background:linear-gradient(rgba(56, 53, 53, 0.192),rgba(49, 47, 47, 0.439)),url(1920x960_EWB_Hero.jpg) no-repeat  ;
+    height: 100vh ;
+    background-size: cover; 
+    background-color: rgb(217, 209, 209);
+    background-position: 100%;
+
 }
-ul li.active a{
-    background: #fff;
-    color: black;
-}
-.principale{
-    max-width: 114rem;
-    margin: 0 auto;
-}
-.titre{
+
+.logo a{
+    color:rgba(170, 159, 159, 0.686);
+    padding: 10px 20px ;
     position: absolute;
-    top: 50%;
+    top:27px ; 
+    left:36px;
+    text-transform: uppercase;
+    text-decoration: none ;
+    font-weight: 900;
+    }
+
+
+.logo spam{
+    color: #07284d;
+    font-weight: bold;
+    font-size: 15mm;
+
+}
+
+.titre{
+    position: relative;
+    padding: 13px 25px ;
+    top: 20%;
     left: 50%;
     transform: translate(-50% , -50%);
+    font-family: Georgia, serif;
+    font-size: 25px;
+    word-spacing: 1px;
+    color: #292929;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
 }
-.titre h1{
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+
+
+
+
+
+
+.pp {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50% , -50%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: #fff;
-    font-size: 50px;
+    font-size: 16px;
 }
 .bouton{
+    font-family:Verdana, Geneva, sans-serif;
     position: absolute;
     top: 60%;
-    left: 50%;
+    left: 15%;
     transform: translate(-50% , -50%);
 }
 .bouton a{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: #fff;
     text-decoration: none;
     border: 1px solid #fff;
     padding: 10px 20px;
+    font-size: 5mm;
+
 }
 .btn{
     transition: 0.6s ease;
@@ -83,3 +131,4 @@ ul li.active a{
     background-color: #fff;
     color: black;
 }
+
