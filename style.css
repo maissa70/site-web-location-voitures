@@ -59,18 +59,20 @@ body{
     color:rgba(170, 159, 159, 0.686);
     padding: 10px 20px ;
     position: absolute;
-    top:27px ; 
-    left:36px;
+    top:8%;
+    left:4%;
     text-transform: uppercase;
     text-decoration: none ;
-    font-weight: 900;
+    font-weight: 1000;
+    font:  1.2em "Fira Sans", serif;
+    font-size: 8mm;
     }
 
 
 .logo spam{
-    color: #07284d;
-    font-weight: bold;
+    color: #121111;
     font-size: 15mm;
+    font-family: Lucida     ;
 
 }
 
@@ -89,12 +91,7 @@ body{
     text-transform: capitalize;
 }
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: century;
-}
+
 
 .pp {
     position: absolute;
@@ -112,11 +109,11 @@ body{
     left: 15%;
     transform: translate(-50% , -50%);
 }
-.bouton a{
+..bouton a{
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: #fff;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 0.5px solid #fff;
     padding: 10px 20px;
     font-size: 5mm;
 
@@ -125,8 +122,9 @@ body{
     transition: 0.6s ease;
 }
 .btn:hover{
-    background-color: #fff;
-    color: black;
+    background-color: rgba(48, 46, 46, 0.696);
+    color: rgba(255, 255, 255, 0.308);
+
 }
  /*se connecter*/
  section{
