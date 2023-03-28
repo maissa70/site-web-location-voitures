@@ -36,6 +36,12 @@ li a:hover:not(.active) {
 .active {
   background-color: rgb(48, 46, 46, 0.696);
 }
+.img{
+    position: absolute;
+    top:2.5%;
+    left:2.5%;
+    width: 180px;
+}
 .titre {
     color: #fff;
     font-size: 9px;
