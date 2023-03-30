@@ -99,8 +99,8 @@ body{
 .bb{
     background-color: rgb(237, 235, 235);
     padding-bottom: 50%;
-    border-top: 8px solid rgba(0, 0, 0, 0.074); 
-    box-shadow: 10px 5px 15px 5px #d0c9c944;
+    border-top: 8px solid rgba(53, 52, 52, 0.912); 
+    box-shadow: 10px 5px 15px 5px #d0c9c92c;
 
 }
 .p{
