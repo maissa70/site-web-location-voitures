@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'century';
+}
+ul {
+    list-style-type: none; 
+    overflow: hidden;
+    margin: 1cm;
+}
+li {
+    float: right;
+    /* position*/
+  }
+
+li a {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  display: block; 
+  padding: 15px 30px;
+  text-decoration: none; 
+  color: #fff;
+  text-align: center;
+ 
+}
+
+li a:hover {
+
+    background-color: rgba(170, 159, 159, 0.484);
+  }
+li a:hover:not(.active) {
+  background-color: rgba(170, 159, 159, 0.302);
+  /*background: #fff;
+    color: black;*/
+}
+.active {
+  background-color: rgb(48, 46, 46, 0.696);
+}
+header{
+ background-color: #292727ab;
+ padding: 0.25%;
+}
+.img{
+    position: absolute;
+    top:2.5%;
+    left:2.5%;
+    width: 180px;
+}
+.titre {
+    color: #fff;
+    font-size: 9px;
+}
+body{
+    background:linear-gradient(rgba(56, 53, 53, 0.192),rgba(49, 47, 47, 0.439)),url(1920x960_EWB_Hero.jpg) no-repeat  ;
+    height: 100vh ;
+    background-size: cover; 
+    background-color: rgb(217, 209, 209);
+    background-position: 100%;
+
+}
+
+.logo a{
+    color:rgba(170, 159, 159, 0.686);
+    padding: 10px 20px ;
+    position: absolute;
+    top:8%;
+    left:4%;
+    text-transform: uppercase;
+    text-decoration: none ;
+    font-weight: 1000;
+    font:  1.2em "Fira Sans", serif;
+    font-size: 8mm;
+    }
+
+
+.logo spam{
+    color: #121111;
+    font-size: 15mm;
+    font-family: Lucida     ;
+
+}
+
+.titre{
+    position: relative;
+    padding: 13px 25px ;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-family: Georgia, serif;
+    font-size: 25px;
+    word-spacing: 1px;
+    color: #292929;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+
+.bb{
+    background-color: rgb(237, 235, 235);
+    padding-bottom: 50%;
+}
+.p{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:rgb(90, 88, 88);
+    position:absolute;
+    left:5mm;
+    top:38mm;
+    font-size: 5mm;
+    padding: 2mm;
+    border: 1px solid transparent; 
+    
+}
+
+.m {
+  border: 2px solid rgba(0, 0, 0, 0.607);
+  border-radius: 5px;
+  position:absolute;
+    left:5mm;
+    top:55mm;
+    font-size: 5mm;
+    width: 300px;
+    height: 350px;
+    -webkit-box-shadow: 5px 5px 15px 5px #00000092; 
+    box-shadow: 5px 5px 15px 5px #0000007e;
+
+
+}
+.img1{
+    left:20px;  border-radius: 10%;   width: 250px; top:2.5%;
+    left:5mm; position: absolute;
+      
+}
+.name{
+    color:rgb(5, 5, 5);   position:absolute; left:12mm; top:50mm;  font-size: 6.5mm;
+}
+.preserver{
+    color:rgb(5, 5, 5); text-decoration: none solid rgb(68, 68, 68);  border: 2px solid rgb(0, 0, 0);
+      position:absolute; left:17mm; top:65mm; width: 45mm; height: 50px; font-size: 7mm; font-weight: 100;   
+      padding: 2%; padding-left: 5mm; padding-right: none; border-radius:5cm ; background-color: black; color: white;
+}
+.preserver:hover{
+    background-color: rgb(103, 100, 100);
+color: #beb8b8;}
