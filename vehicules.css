@@ -116,7 +116,6 @@ body{
 }
 
 .m {
-  border: 2px solid rgba(0, 0, 0, 0.607);
   border-radius: 5px;
   position:absolute;
     left:5mm;
@@ -124,8 +123,7 @@ body{
     font-size: 5mm;
     width: 300px;
     height: 350px;
-    -webkit-box-shadow: 5px 5px 15px 5px #00000092; 
-    box-shadow: 5px 5px 15px 5px #0000007e;
+    box-shadow: 5px 5px 10px 5px #0000002c;
 
 
 }
