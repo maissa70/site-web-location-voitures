@@ -34,7 +34,7 @@ li a:hover:not(.active) {
     color: black;*/
 }
 .active {
-  background-color: rgba(40, 39, 39, 0.696);
+  background-color: rgb(48, 46, 46, 0.696);
 }
 header{
  background-color: #292727ab;
@@ -96,16 +96,16 @@ body{
 }
 
 
-.bb{
-    background-color: rgb(237, 235, 235);
+.body1{
+    background-color: rgba(237, 235, 235, 0.881);
     padding-bottom: 50%;
-    border-top: 8px solid rgba(53, 52, 52, 0.912); 
-    box-shadow: 10px 5px 15px 5px #d0c9c92c;
+    border-top: 8px solid rgba(185, 183, 183, 0.358); 
+    box-shadow: 10px 5px 15px 5px #bab6b6ab;
 
 }
-.p{
+.nosvehicules{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color:rgb(90, 88, 88);
+    color:rgb(54, 52, 52);
     position:absolute;
     left:5mm;
     top:38mm;
@@ -115,7 +115,7 @@ body{
 
 }
 
-.m {
+.cadre {
   border-radius: 5px;
   position:absolute;
     left:5mm;
@@ -124,6 +124,7 @@ body{
     width: 300px;
     height: 350px;
     box-shadow: 5px 5px 10px 5px #0000002c;
+    background-color: #ffffffde;
 
 
 }
@@ -142,4 +143,5 @@ body{
 }
 .preserver:hover{
     background-color: rgb(103, 100, 100);
-color: #beb8b8;}
+color: #fffbfb; border: 2px solid rgb(103, 100, 100);
+}
