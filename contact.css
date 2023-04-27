@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+  
+  .img {
+    position: absolute;
+    top: 2.5%;
+    
+    width: 180px;
+  }
+  
+  .titre {
+    font-size: 9px;
+  }
+  
+  .contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:blur (5%) , url(https://www.bentleymotors.com/content/dam/bentley/Master/Models/derivative-strategy-/bentayga-ewb/ewb-azure/1920x960_EWB_Hero.jpg);
+    background-size: cover;
+  }
+  
+  .content h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  
+  .content p {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  
+  .box .text h3 {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 500;
+    align-items: center;
+  }
+  
+  .box .text p {
+    font-size: 16px; 
+    position: relative;
+  }
+  
+  .form {
+    width: 40%;
+    padding: 40px;
+    max-width: 800px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: center;
+  }
+  
+  .form h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    position: center;
+  }
+  
+  .inputbox {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .inputbox input[type="text"],
+  .inputbox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    margin: 10px 0;
+    outline: none;
+    resize: none;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .inputbox input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #050505;
+    border-radius: 20px;
+  }
+  
